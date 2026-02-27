@@ -143,7 +143,7 @@ const reviews = [
 ];
 
 const stats = [
-  { value: "5000+", label: "Patients Treated" },
+  { value: "2000+", label: "Patients Treated" },
   { value: "6+", label: "Years Experience" },
   { value: "4.9★", label: "Google Rating" },
 ];

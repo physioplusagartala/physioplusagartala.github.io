@@ -49,9 +49,12 @@ const HeroCarousel = () => {
 
   const total = slides.length;
 
-  const goTo = useCallback((index: number) => {
-    setCurrent((index + total) % total);
-  }, [total]);
+  const goTo = useCallback(
+    (index: number) => {
+      setCurrent((index + total) % total);
+    },
+    [total],
+  );
 
   const next = useCallback(() => goTo(current + 1), [current, goTo]);
   const prev = useCallback(() => goTo(current - 1), [current, goTo]);
@@ -70,8 +73,14 @@ const HeroCarousel = () => {
     timerRef.current = setInterval(next, AUTO_SLIDE_INTERVAL);
   }, [next]);
 
-  const handlePrev = () => { prev(); resetTimer(); };
-  const handleNext = () => { next(); resetTimer(); };
+  const handlePrev = () => {
+    prev();
+    resetTimer();
+  };
+  const handleNext = () => {
+    next();
+    resetTimer();
+  };
 
   // Touch/swipe support
   const handleTouchStart = (e: React.TouchEvent) => {
@@ -101,7 +110,10 @@ const HeroCarousel = () => {
         >
           {slides.map((slide, i) => (
             <div key={i} className="w-full flex-shrink-0">
-              <div className="relative w-full" style={{ paddingBottom: "56.25%" }}>
+              <div
+                className="relative w-full"
+                style={{ paddingBottom: "56.25%" }}
+              >
                 <img
                   src={slide.src}
                   alt={slide.alt}
@@ -134,10 +146,16 @@ const HeroCarousel = () => {
           {slides.map((_, i) => (
             <button
               key={i}
-              onClick={() => { goTo(i); resetTimer(); }}
-              className={`h-2.5 rounded-full transition-all ${
-                i === current ? "w-7 bg-primary" : "w-2.5 bg-card/60"
-              }`}
+              onClick={() => {
+                goTo(i);
+                resetTimer();
+              }}
+              className={
+                `rounded-full transition-all ` +
+                (i === current
+                  ? "bg-primary w-6 h-1.5 sm:w-7 sm:h-2.5"
+                  : "bg-card/60 w-1.5 h-1.5 sm:w-2.5 sm:h-2.5")
+              }
               aria-label={`Go to slide ${i + 1}`}
             />
           ))}
@@ -145,20 +163,37 @@ const HeroCarousel = () => {
       </div>
 
       {/* CTA bar below carousel */}
-      <div className="bg-primary px-4 py-4 md:py-5">
+      <div className="bg-primary px-4 py-3 md:py-5">
         <div className="mx-auto flex max-w-4xl flex-col items-center gap-3 sm:flex-row sm:justify-center">
-          <Button size="lg" variant="secondary" className="w-full sm:w-auto shadow-lg" asChild>
+          <Button
+            size="lg"
+            variant="secondary"
+            className="w-full sm:w-auto shadow-lg h-9 sm:h-11"
+            asChild
+          >
             <Link to="/book-appointment">
               <Calendar className="mr-2 h-4 w-4" /> Book Appointment
             </Link>
           </Button>
-          <Button size="lg" className="w-full sm:w-auto bg-primary-foreground text-primary hover:bg-primary-foreground/90 shadow-lg" asChild>
+          <Button
+            size="lg"
+            className="w-full sm:w-auto bg-primary-foreground text-primary hover:bg-primary-foreground/90 shadow-lg h-9 sm:h-11"
+            asChild
+          >
             <a href="tel:+916033497168">
               <Phone className="mr-2 h-4 w-4" /> Call Now
             </a>
           </Button>
-          <Button size="lg" className="w-full sm:w-auto bg-[hsl(142,70%,45%)] text-primary-foreground hover:bg-[hsl(142,70%,40%)] shadow-lg" asChild>
-            <a href="https://wa.me/916033497168" target="_blank" rel="noopener noreferrer">
+          <Button
+            size="lg"
+            className="w-full sm:w-auto bg-[hsl(142,70%,45%)] text-primary-foreground hover:bg-[hsl(142,70%,40%)] shadow-lg h-9 sm:h-11"
+            asChild
+          >
+            <a
+              href="https://wa.me/916033497168"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <MessageCircle className="mr-2 h-4 w-4" /> WhatsApp Us
             </a>
           </Button>
