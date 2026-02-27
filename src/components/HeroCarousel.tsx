@@ -141,8 +141,8 @@ const HeroCarousel = () => {
           <ChevronRight className="h-5 w-5 md:h-6 md:w-6" />
         </button>
 
-        {/* Dots */}
-        <div className="absolute bottom-3 left-1/2 z-10 flex -translate-x-1/2 gap-2">
+        {/* Dots – hide on phones, keep tiny bars on sm+ screens */}
+        <div className="absolute bottom-3 left-1/2 z-10 hidden sm:flex -translate-x-1/2 gap-1">
           {slides.map((_, i) => (
             <button
               key={i}
@@ -153,8 +153,8 @@ const HeroCarousel = () => {
               className={
                 `rounded-full transition-all ` +
                 (i === current
-                  ? "bg-primary w-6 h-1.5 sm:w-7 sm:h-2.5"
-                  : "bg-card/60 w-1.5 h-1.5 sm:w-2.5 sm:h-2.5")
+                  ? "bg-primary w-3 h-1.5"
+                  : "bg-card/60 w-1.5 h-1.5")
               }
               aria-label={`Go to slide ${i + 1}`}
             />

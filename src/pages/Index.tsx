@@ -123,19 +123,19 @@ const faqs = [
 
 const reviews = [
   {
-    name: "Rajesh K.",
+    name: "Rajesh Kumar.",
     rating: 5,
     text: "Excellent treatment for my chronic back pain. The staff is very professional and caring.",
     initials: "RK",
   },
   {
-    name: "Priya D.",
+    name: "Priya Debnath.",
     rating: 5,
     text: "My mother's knee pain improved significantly after just 10 sessions. Highly recommend!",
     initials: "PD",
   },
   {
-    name: "Amit S.",
+    name: "Amit Sarkar.",
     rating: 5,
     text: "Best physiotherapy clinic in Agartala. Modern equipment and very effective treatment.",
     initials: "AS",

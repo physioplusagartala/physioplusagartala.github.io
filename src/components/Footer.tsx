@@ -19,6 +19,9 @@ const Footer = () => (
             Expert physiotherapy care in Agartala. Personalized, evidence-based
             treatment for a pain-free life.
           </p>
+          <p className="text-sm opacity-70 leading-relaxed mt-3 py-2 px-2 bg-primary/10 rounded">
+            🏠 Home Visits Available. Contact for more details
+          </p>
         </div>
 
         {/* Quick Links */}
@@ -85,9 +88,9 @@ const Footer = () => (
           <div className="flex flex-col gap-2 text-sm opacity-70">
             <div className="flex items-center gap-2">
               <Clock className="h-4 w-4 shrink-0" />
-              <span>Mon – Sat: 9:00 AM – 8:00 PM</span>
+              <span>Monday to Saturday: 12:00 PM – 9:00 PM</span>
             </div>
-            <span className="ml-6">Sunday: 10:00 AM – 2:00 PM</span>
+            <span className="ml-6">Sunday: Closed</span>
           </div>
         </div>
       </div>
