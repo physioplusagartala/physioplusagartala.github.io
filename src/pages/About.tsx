@@ -52,7 +52,7 @@ const milestones = [
   { number: "2000+", label: "Happy Patients" },
   { number: "6+", label: "Years of Experience" },
   { number: "98%", label: "Patient Satisfaction" },
-  { number: "4.9★", label: "Google Rating" },
+  { number: "5★", label: "Google Rating" },
 ];
 
 const About = () => (

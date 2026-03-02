@@ -145,7 +145,7 @@ const reviews = [
 const stats = [
   { value: "2000+", label: "Patients Treated" },
   { value: "6+", label: "Years Experience" },
-  { value: "4.9★", label: "Google Rating" },
+  { value: "5★", label: "Google Rating" },
 ];
 
 const MAPS_EMBED_URL =
