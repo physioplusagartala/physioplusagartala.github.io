@@ -1,73 +1,123 @@
-# Welcome to your Lovable project
+# 🏥 Physio Plus Agartala
 
-## Project info
+Official website for **Physio Plus Agartala**, a physiotherapy clinic located in **Dhaleswar, Agartala, Tripura, India**.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+This website provides information about physiotherapy services, clinic details, contact information, and helps patients easily connect with the clinic.
 
-## How can I edit this code?
+🌐 **Live Website:** https://physioplusagartala.com
 
-There are several ways of editing your application.
+---
 
-**Use Lovable**
+## 📌 About the Clinic
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+**Physio Plus Agartala** is a physiotherapy clinic dedicated to helping patients recover from injuries, reduce pain, and improve mobility through professional physiotherapy treatments.
 
-Changes made via Lovable will be committed automatically to this repo.
+The clinic focuses on modern physiotherapy techniques and personalized rehabilitation programs.
 
-**Use your preferred IDE**
+### Services Provided
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+- Back Pain Treatment
+- Neck Pain Treatment
+- Joint Pain Therapy
+- Sports Injury Rehabilitation
+- Post-Surgery Rehabilitation
+- Muscle Strain Treatment
+- Orthopedic Physiotherapy
+- Neurological Physiotherapy
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+📍 **Location:** Dhaleswar, Agartala, Tripura, India
 
-Follow these steps:
+---
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+## 🚀 Website Features
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+- Responsive modern design
+- Mobile-friendly layout
+- SEO optimized structure
+- Fast loading static website
+- Clinic information and services
+- Contact details for patients
+- Google Maps integration
 
-# Step 3: Install the necessary dependencies.
-npm i
+---
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+## 🛠 Technologies Used
+
+| Technology    | Purpose                   |
+| ------------- | ------------------------- |
+| HTML5         | Website structure         |
+| CSS3          | Styling and layout        |
+| JavaScript    | Interactive functionality |
+| Git & GitHub  | Version control           |
+| Custom Domain | Website hosting           |
+
+---
+
+## 📁 Project Structure
+
+```
+physio-plus-agartala/
+│
+├── index.html
+├── style.css
+├── script.js
+├── images/
+│
+└── README.md
 ```
 
-**Edit a file directly in GitHub**
+---
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## 🌍 Deployment
 
-**Use GitHub Codespaces**
+The website is deployed using **GitHub** and connected to the custom domain:
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+```
+physioplusagartala.com
+```
 
-## What technologies are used for this project?
+Whenever updates are pushed to the repository, the website automatically updates.
 
-This project is built with:
+---
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## 🔧 How to Update the Website
 
-## How can I deploy this project?
+Clone the repository:
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+```bash
+git clone https://github.com/username/repository-name.git
+```
 
-## Can I connect a custom domain to my Lovable project?
+Make changes to the project and push updates:
 
-Yes, you can!
+```bash
+git add .
+git commit -m "Update website"
+git push origin main
+```
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+After pushing, the changes will reflect on the live website.
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+---
+
+## 📞 Contact
+
+**Physio Plus Agartala**
+
+Dhaleswar, Agartala  
+Tripura, India
+
+For appointments and inquiries, patients can visit the clinic or contact through the website.
+
+---
+
+## 👨‍💻 Developer
+
+Website developed and maintained using modern web technologies.
+
+---
+
+## 📄 License
+
+This project is developed for **Physio Plus Agartala**.  
+All rights reserved.
