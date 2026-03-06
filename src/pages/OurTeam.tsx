@@ -51,7 +51,9 @@ const teamMembers = [
     role: "Senior Physiotherapist",
     experience: "6 Years of Experience",
     image: "/images/dr-parijat-saha.png",
-    highlights: ["Specialist in Orthopedic Physiotherapy"],
+    highlights: ["Specialist in Orthopedic Physiotherapy",
+      "Former Intern at Rabindranath Tagore International Institute of Cardiac Sciences (RTIICS) & Institute of Neurosciences Kolkata (I-NK)"
+    ],
   },
   // ← ADD NEW TEAM MEMBERS HERE (copy the format above)
 ];

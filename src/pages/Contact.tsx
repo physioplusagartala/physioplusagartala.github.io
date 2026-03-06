@@ -108,7 +108,7 @@ const Contact = () => {
                       Working Hours
                     </h4>
                     <p className="text-sm text-muted-foreground">
-                      Mon – Sat: 12:00 PM – 9:00 PM
+                      Mon – Sat: 1:00 PM – 8:30 PM
                     </p>
                     <p className="text-sm text-muted-foreground">
                       Sunday: Closed

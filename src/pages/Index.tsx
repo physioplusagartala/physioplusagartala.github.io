@@ -101,23 +101,68 @@ const whyUs = [
 const faqs = [
   {
     q: "What conditions does physiotherapy treat?",
-    a: "Physiotherapy treats a wide range of conditions including back pain, neck pain, sports injuries, post-surgical recovery, stroke rehabilitation, arthritis, frozen shoulder, and more.",
+    a: `At Physio Plus, we provide advanced physiotherapy care to help patients recover from pain, injuries, surgeries, and movement disorders. Physiotherapy focuses on restoring movement, reducing pain, improving strength, and enhancing overall physical function without unnecessary medications or surgeries.
+
+Our experienced physiotherapists treat a wide range of musculoskeletal, neurological, orthopedic, and lifestyle-related conditions.`,
   },
+
   {
     q: "How many sessions will I need?",
-    a: "The number of sessions depends on your condition, severity, and recovery goals. After an initial assessment, we'll create a personalized treatment plan with an estimated timeline.",
+    a: `The number of physiotherapy sessions needed depends on the type of injury or condition, its severity, and how the patient responds to treatment.
+
+1. Mild Conditions
+Examples: Mild muscle pain, small sprain, posture-related pain.
+Usually 3–5 sessions are enough. Along with home exercises, patients recover quickly.
+
+2. Moderate Conditions
+Examples: Back pain, cervical pain, ligament strain, shoulder stiffness.
+Usually 6–12 sessions are required. Treatment may continue for 2–4 weeks.
+
+3. Severe or Chronic Conditions
+Examples: Slip disc, frozen shoulder, post-surgery rehabilitation, stroke recovery.
+May require 15–30 sessions or more. Treatment can continue for several weeks to months.`,
   },
+
   {
     q: "Do I need a doctor's referral?",
-    a: "No, you can directly visit our clinic. However, having a referral from your doctor can help us understand your medical history better.",
+    a: `No, patients do not necessarily need a doctor’s referral to visit a physiotherapist.
+
+Physiotherapy is recognized globally as an independent healthcare profession. Qualified physiotherapists are trained to assess, diagnose (within their scope), plan treatment, and manage many physical conditions independently. This concept is called Direct Access, meaning a patient can directly consult a physiotherapist without first seeing a doctor.
+
+Why a Doctor’s Referral Is Not Always Needed:
+• Physiotherapists are primary contact practitioners in many healthcare systems.
+• They are educated to evaluate movement problems, pain, injury, and disability.
+• They can design rehabilitation programs and provide treatment independently.
+• If a condition requires medical intervention, physiotherapists can refer the patient to a doctor.
+
+According to the global description used in collaboration with the World Health Organization and international physiotherapy bodies, physiotherapists assess, plan and implement rehabilitative programs to improve or restore human movement and functional ability, relieve pain, and prevent physical disability.
+
+More information: https://world.physio/resources/what-is-physiotherapy`,
   },
+
   {
     q: "Is physiotherapy painful?",
-    a: "Some techniques may cause mild discomfort, but physiotherapy should not be painful. Our therapists always work within your comfort level and adjust treatment accordingly.",
+    a: `Physiotherapy is generally not painful, but sometimes patients may feel mild discomfort during certain treatments or exercises. This happens because physiotherapy works on injured muscles, stiff joints, and weak tissues, which may already be sensitive.
+
+Why Some Discomfort Can Occur:
+• Stretching tight muscles or joints may cause temporary discomfort.
+• Strengthening weak muscles can create mild soreness, similar to starting a new exercise.
+• Manual therapy or deep tissue techniques may feel slightly uncomfortable while releasing stiffness.
+
+Important Thing to Know:
+Physiotherapy should never cause severe or unbearable pain. A qualified physiotherapist always adjusts the treatment according to the patient’s pain tolerance, condition, and stage of recovery.
+
+What Patients Usually Feel:
+• Mild stretching sensation
+• Temporary muscle soreness
+• Relief and improved movement after treatment
+
+The main aim of physiotherapy is to reduce pain, restore movement, and improve function — not to cause pain.`,
   },
+
   {
     q: "What should I wear to a session?",
-    a: "Wear comfortable, loose-fitting clothing that allows easy movement. This helps your therapist assess and treat the affected areas effectively.",
+    a: `Wear comfortable, loose-fitting clothing that allows easy movement. This helps your therapist assess and treat the affected areas effectively.`,
   },
 ];
 
@@ -171,7 +216,7 @@ const Index = () => (
             addressCountry: "IN",
           },
           telephone: "+916033497168",
-          openingHours: ["Mo-Sa 12:00-21:00", "Su closed"],
+          openingHours: ["Mo-Sa 13:00-20:30", "Su closed"],
           url: "https://physioplusagartala.com",
           priceRange: "$$",
         }),
@@ -312,7 +357,7 @@ const Index = () => (
       <div className="container-narrow">
         <SectionHeading
           title="Find Us"
-          subtitle="Visit us at Dhaleswar, Agartala – conveniently located opposite Teresa Health Care."
+          subtitle="Visit us at Dhaleswar Road no 8/9, Agartala - conveniently located behind Swarup Marriage Hall"
         />
         <div className="grid gap-8 md:grid-cols-2 items-center">
           <div className="space-y-4">
@@ -339,7 +384,7 @@ const Index = () => (
                   Working Hours
                 </h4>
                 <p className="text-sm text-muted-foreground">
-                  Mon – Sat: 12:00 PM – 9:00 PM
+                  Mon – Sat: 1:00 PM – 8:30 PM
                 </p>
                 <p className="text-sm text-muted-foreground">Sunday: Closed</p>
               </div>
